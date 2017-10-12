@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: powderblue;
+    color: darkblue;
+}
+
+.buttons {
+    display: inline-block;
+    float: left;
+}
+
+.buttons button, .buttons input {
+    display: block;
+    color: darkblue;
+}
+
+.buttons button {
+    margin-bottom: 0.75rem;
+    background-color: cadetblue;
+    border: 1px solid darkblue;
+    border-top: none;
+}
+
+.buttons input {
+    background-color: lightcyan;
+    border: 1px solid darkblue;;
+}
+
+.buttons button:active {
+    background-color: darkblue;
+    color: cadetblue;
+}
+
+#canvas {
+    width: 600px;
+    height: 600px;
+    background-color: cadetblue;
+    display: inline-block;
+    float: left;
+    margin: 0 1rem;
+    border: 2px solid darkblue;
+}
+
+#sidePanel {
+    border: 2px solid darkblue;
+    width: 250px;
+    height: 400px;
+    float: left;
+    background-color: cadetblue;
+}
