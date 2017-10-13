@@ -106,7 +106,7 @@
 
 * Clicking on any shape should call a method named describe(), which should update the statistics in the sidepanel in index.html
 
-* Double clicking on any shape should remove the shape from the screen
+<!-- * Double clicking on any shape should remove the shape from the screen -->
 
 * Every shape draws itself when it is created. The shape will be drawn according to the size specified when the shape was created, and the shape will be placed in a random location within the shape canvas
 
@@ -114,9 +114,9 @@
 
 * Remember that a circle's perimeter is the same as its circumference
 
-* Drawing a triangle is going to be tricky!
+<!-- * Drawing a triangle is going to be tricky! -->
 
-* Circles should be purple, Squares should be red, Triangles should be yellow, and Rectangles should be green
+<!-- * Circles should be purple, Squares should be red, Triangles should be yellow, and Rectangles should be green -->
 
 ## Hints/Resources
 

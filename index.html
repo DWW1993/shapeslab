@@ -9,24 +9,24 @@
 </head>
 <body>
     <div class="buttons">
-        <input type="text" id="squareLength" placeholder="Length of your square">
-        <button id="square">Insert Square</button>
-        <input type="text" id="rectangleLength" placeholder="Length of your rectangle">
-        <input type="text" id="rectangleHeight" placeholder="Height of your rectangle">
-        <button id="rectangle">Insert Rectangle</button>
-        <input type="text" id="circleRadius" placeholder="Radius of your circle">
-        <button id="circle">Insert Circle</button>
-        <input type="text" id="triangleHeight" placeholder="Height of your triangle">
-        <button id="triangle">Insert Triangle</button>
+        <input type="number" id="squareLength" placeholder="Length of your square">
+        <button id="squareButton">Insert Square</button>
+        <input type="number" id="rectangleLength" placeholder="Length of your rectangle">
+        <input type="number" id="rectangleHeight" placeholder="Height of your rectangle">
+        <button id="rectangleButton">Insert Rectangle</button>
+        <input type="number" id="circleLength" placeholder="Diameter of your circle">
+        <button id="circleButton">Insert Circle</button>
+        <input type="number" id="triangleHeight" placeholder="Height of your triangle">
+        <button id="triangleButton">Insert Triangle</button>
     </div>
     <div id="canvas"></div>
     <div id="sidePanel">
-        <p id="shapeName">Shape Name: </p>   
+        <p id="shapeName"></p>
         <p id="shapeWidth">Width: </p>           
         <p id="shapeHeight">Height: </p>            
-        <p id="ShapeRadius">Radius: </p>        
-        <p id="ShapeArea">Area: </p>            
-        <p id="ShapePerimeter">Perimeter: </p> 
+        <p id="shapeRadius">Radius: </p>        
+        <p id="shapeArea">Area: </p>            
+        <p id="shapePerimeter">Perimeter: </p> 
     </div>
     <script src="script.js"></script>
 </body>

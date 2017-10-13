@@ -42,8 +42,11 @@ body {
     float: left;
     margin: 0 1rem;
     border: 2px solid darkblue;
-    position: relative;
-    overflow: hidden;
+}
+
+#canvas div {
+    /* position: absolute;
+    display: none; */
 }
 
 .Square {
